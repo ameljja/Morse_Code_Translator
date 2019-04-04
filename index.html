@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Morse Code Translator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="morse-translator" class="col-sm-12 heading-morse-translator">
+                <h1 class="mb-0"><strong>Morse Code Translator</strong></h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="translator" class="container-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 left-content">
+                    <img src="alphabet-morse.jpg" alt="Chart of the Morse" class="img-fluid img-custwidth">
+                </div>
+                <div class="col-sm-6 right-content">
+                    <p><strong>Morse code is a character encoding scheme used in telecommunication that encodes text characters as standardized sequences of two different signal durations called dots and dashes or dits and dahs.<br /> Morse code is named for Samuel F.
+                        B. Morse, an inventor of the telegraph.</strong></p>
+                    <input type="text" id="message" placeholder="Your text..." autofocus>
+                    <div id="morse" class="morse"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
